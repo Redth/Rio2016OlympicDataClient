@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>OlympicDataClient</id>
+    <title>Olympic Data Client</title>
+    <version>1.0</version>
+    <authors>Redth</authors>
+    <owners>Redth</owners>
+    <summary>A simple .NET client for downloading some basic Olympic Medal Count data for the Rio 2016 Olympics</summary>        
+    <description>A simple .NET client for downloading some basic Olympic Medal Count data for the Rio 2016 Olympics</description>
+    <copyright>Copyright 2016</copyright>
+    <projectUrl>https://github.com/Redth/Rio2016OlympicDataClient</projectUrl>
+    <licenseUrl>https://github.com/Redth/Rio2016OlympicDataClient/blob/master/LICENSE</licenseUrl>
+    <dependencies>
+      <dependency id="NETStandard.Library" version="1.6.0"/>
+      <dependency id="Newtonsoft.Json" version="9.0.1" />
+      <dependency id="System.Net.Http" version="4.1.0"/>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="./OlympicDataClient/src/OlympicDataClient/bin/Release/netstandard1.1/OlympicDataClient.dll" target="lib\netstandard1.1" />
+  </files>
+</package>
